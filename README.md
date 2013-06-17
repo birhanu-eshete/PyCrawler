@@ -10,8 +10,8 @@ A basic Python crawler that harvests URLs and maintains crawl index based on a g
 
 ##Requirements/Dependencies
 
-- Python 2.7 - http://www.python.org/
-- Beautiful Soup Library - http://
+- Python 2.7 - http://www.python.org
+- Beautiful Soup Library - http://www.crummy.com/software/BeautifulSoup/
 - urllib Library - http://github.com/mikemaccana/python-docx
 
 ##Plaftorms
@@ -26,14 +26,14 @@ We tested it and it worked fine on:
 
 - Prepare the file containing seed files (e.g., test_seed.txt)
 - Create the index file if running for the first time (e.g., test_index.txt). You need not create the index file for the next run as the crawl output is appended to the index file. If you want to launch a new crawl task, create a new index file.
-- Run the crawler: Suppose the crawl-depth =2. So, you run the crawler as <code>python runcrawler.py test_seed.txt test_index.txt 2 </code>.
+- Run the crawler: Suppose the crawl-depth is 2. So, you run the crawler as: <code>python runcrawler.py test_seed.txt test_index.txt 2 </code>
 
 
 ##Author
 
-- Birhanu Mekuria Eshete - birhanu.mekuria(at)gmail.com
+Birhanu Mekuria Eshete - birhanu.mekuria(at)gmail.com
 
 ##License 
 
--This code is released under the [MIT License](http://opensource.org/licenses/MIT)
+This code is released under the [MIT License](http://opensource.org/licenses/MIT)
 
