@@ -50,7 +50,7 @@ class Crawler:
 					#print c
 				except:
 					print "Could not open %s" % page
-					continue
+					pass
 				soup=BeautifulSoup(c.read( )) # parse the URL resource object
 				#print soup
 				self.add_to_url_list(page)
